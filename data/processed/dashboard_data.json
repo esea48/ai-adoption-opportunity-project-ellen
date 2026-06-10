@@ -76,14 +76,14 @@
     "title": "Caregiver Turnover Cost",
     "cards": [
       {
-        "label": "CareNest annual turnover rate",
+        "label": "Cleo annual turnover rate",
         "value": "35%",
         "context": "Upper bound of national sector range (25–35%)"
       },
       {
         "label": "Caregivers lost per year",
         "value": "~30–35",
-        "context": "At 35% of CareNest's ~85–100 field/coordination staff"
+        "context": "At 35% of Cleo's ~85–100 field/coordination staff"
       },
       {
         "label": "Average cost per exit",
@@ -102,7 +102,7 @@
       }
     ],
     "sources": [
-      "use_case_discovery.md §3 (CareNest turnover rate and stakeholder analysis)",
+      "use_case_discovery.md §3 (Cleo turnover rate and stakeholder analysis)",
       "opportunities_risks.md §1.3 (turnover cost and Phase 3 financial case)",
       "market_research.md §1.2 (national ambulatory care turnover range 25–35%, Bundesagentur für Arbeit wage data underpinning cost-per-exit estimate)"
     ]
@@ -136,25 +136,25 @@
     "anchor_note": "27% (Charité PYSA) is the defensible floor for board presentation. 61% and 60% are upper-bound figures from a small vendor pilot and a non-German market respectively — see opportunities_risks.md §3.1 for full hype mapping."
   },
   "metric6_scorecard": {
-    "title": "CareNest vs. Sector — Key Operational Benchmarks",
+    "title": "Cleo vs. Sector — Key Operational Benchmarks",
     "rows": [
       {
         "metric": "Caregiver turnover rate",
-        "carenest": "35%",
+        "cleo": "35%",
         "sector": "25–35% (national ambulatory care average)",
         "position": "At the upper bound — above-average operational stress",
         "source": "market_research.md §1.2"
       },
       {
         "metric": "Documentation time burden",
-        "carenest": "20–30% of working time (sector-derived assumption, not yet CareNest-validated)",
+        "cleo": "20–30% of working time (sector-derived assumption, not yet Cleo-validated)",
         "sector": "56% of caregivers report >5 hrs/week on documentation",
-        "position": "Comparable order of magnitude; CareNest-specific time-tracking exercise recommended to confirm (see use_case_discovery.md §6)",
+        "position": "Comparable order of magnitude; Cleo-specific time-tracking exercise recommended to confirm (see use_case_discovery.md §6)",
         "source": "market_research.md §1.2; use_case_discovery.md §6"
       },
       {
         "metric": "AI adoption (any tool)",
-        "carenest": "0% — no AI tools deployed",
+        "cleo": "0% — no AI tools deployed",
         "sector": "Care sector lags manufacturing/professional services; general German business AI adoption 20% active (Bitkom 2025), 56% using/planning genAI (CEPR 2026)",
         "position": "Pre-adoption — the investment decision under evaluation",
         "source": "market_research.md §2.1"
@@ -174,7 +174,7 @@
         "label": "Berlin ambulatory care demand growth",
         "value": "+12% by 2030",
         "context": "Senatsverwaltung für Gesundheit, Berlin",
-        "source": "carenest_growth_strategy.md §1; market_research.md §1.1"
+        "source": "cleo_growth_strategy.md §1; market_research.md §1.1"
       },
       {
         "label": "Projected national worker shortfall",
@@ -192,7 +192,7 @@
   },
   "metric8_cost_vs_churn": {
     "title": "Churn Cost vs. AI Investment Cost",
-    "subtitle": "CareNest's recurring annual turnover cost compared against the combined cost of all three AI phases",
+    "subtitle": "Cleo's recurring annual turnover cost compared against the combined cost of all three AI phases",
     "bars": [
       {
         "label": "Current annual churn cost",

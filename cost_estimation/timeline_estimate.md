@@ -66,4 +66,4 @@ Total duration from kick-off to full deployment: **18–22 weeks (~5 months).**
 - **API integration complexity**: MEDIFOX DAN integrations have varied in complexity across Pflegedienste deployments. Allow a 1-week contingency buffer.
 - **Caregiver onboarding scheduling**: coordinating 35-person cohort sessions around shift patterns requires 2–3 weeks of advance planning.
 
-> **Phase 2 trigger:** Phase 2 (Tour Planning AI) scoping should begin no later than Month 6 of Phase 1, conditional on confirming that CareNest has unmet client demand to fill freed scheduling capacity. Without a confirmed waitlist, Phase 2 ROI does not materialise.
+> **Phase 2 trigger:** Phase 2 (Tour Planning AI) scoping should begin no later than Month 6 of Phase 1, conditional on confirming that Cleo has unmet client demand to fill freed scheduling capacity. Without a confirmed waitlist, Phase 2 ROI does not materialise.

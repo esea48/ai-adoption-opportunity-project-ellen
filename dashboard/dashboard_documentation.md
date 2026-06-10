@@ -2,12 +2,12 @@
 
 ## Overview
 
-A Streamlit evidence dashboard built as the communication layer for CareNest's AI investment case. It is designed for a non-technical CEO audience (Cleo Hartman) and combines two layers of evidence:
+A Streamlit evidence dashboard built as the communication layer for Cleo's AI investment case. It is designed for a non-technical CEO audience (Clara Hartman) and combines two layers of evidence:
 
 - **Internal business case context** (turnover cost, documentation evidence strength)
 - **External market context** (demographic pressure, financing pressure, AI adoption trends in Germany, UK, and US)
 
-The goal is not to replace the four research documents (`use_case_discovery.md`, `market_research.md`, `opportunities_risks.md`, `carenest_growth_strategy.md`) but to give Cleo a fast, visual way to grasp *why now* and *how credible* before reading the detail.
+The goal is not to replace the four research documents (`use_case_discovery.md`, `market_research.md`, `opportunities_risks.md`, `cleo_growth_strategy.md`) but to give Clara a fast, visual way to grasp *why now* and *how credible* before reading the detail.
 
 ## How to Run
 
@@ -28,10 +28,10 @@ All chart data and citations live in `data/processed/dashboard_data.json`. Each 
 |---|---|---|---|
 | 1 | Elderly population vs. caregiver supply gap (DE/UK/US) | 3-panel dual-axis line chart (population vs. workforce per country) | The single most important context visual — demand for care is rising structurally across all three markets while workforce supply lags or is consumed by turnover |
 | 2 | AI adoption in elderly/home care — DE vs UK vs US | Horizontal bar chart, with explicit per-bar metric definitions | Frames the investment as "catching up" (Germany 20%, general AI) rather than "leading into the unknown" (US 91% AI-specific in home care, UK 73% care technology) |
-| 3 | Caregiver turnover cost | Stat card row | Anchors the Phase 3 churn use case in CareNest's actual €135,000/year cost |
+| 3 | Caregiver turnover cost | Stat card row | Anchors the Phase 3 churn use case in Cleo's actual €135,000/year cost |
 | 4 | Pflegeversicherung financing deficit, 2024–2029 | Bar chart (actual vs. projected) | Makes the urgency of efficiency investment visceral — the reimbursement system is under growing strain |
 | 5 | AI documentation time savings — evidence strength | Horizontal bar chart, colour-coded by evidence tier | Distinguishes peer-reviewed German evidence (27%, Charité/JMIR) from vendor pilot (61%) and US benchmark (60%) |
-| 6 | CareNest vs. sector — operational benchmarks | Scorecard (CareNest / Sector / Position per row) | Frames where CareNest sits today on turnover, documentation burden, and AI adoption |
+| 6 | Cleo vs. sector — operational benchmarks | Scorecard (Cleo / Sector / Position per row) | Frames where Cleo sits today on turnover, documentation burden, and AI adoption |
 | 7 | Market growth headlines | 4 KPI cards | German home care CAGR, Berlin demand growth, national worker shortfall, Pflegeversicherung 2029 deficit |
 
 ## Sources

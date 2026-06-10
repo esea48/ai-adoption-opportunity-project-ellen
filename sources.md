@@ -15,7 +15,7 @@ Consolidated source list for all market research, opportunity/risk analysis, and
 | ZDF / Pflegeversicherung reform reporting (July 2025) | Pflegeversicherung deficit projections (€1.65bn 2025, €3.5bn 2026, €12.3bn 2029) — `market_research.md` §1.3, dashboard Metric 4 |
 | AOK-Bundesverband statements (March, July 2025) | Pflegekasse financial distress; reform urgency — `market_research.md` §1.3 |
 | pflegeabc.de (December 2025) | Zukunftspakt Pflege reform; target legislation date end-2026 — `market_research.md` §1.5 |
-| Senatsverwaltung für Gesundheit (Berlin) | Berlin ambulatory care demand growth (+12% by 2030); 212,000 Berliners receiving care insurance benefits, 87% cared for at home — `carenest_growth_strategy.md` §1 |
+| Senatsverwaltung für Gesundheit (Berlin) | Berlin ambulatory care demand growth (+12% by 2030); 212,000 Berliners receiving care insurance benefits, 87% cared for at home — `cleo_growth_strategy.md` §1 |
 
 ## Market Size and Growth
 
@@ -79,10 +79,10 @@ Consolidated source list for all market research, opportunity/risk analysis, and
 | Swiss Spitex organisations | Switzerland | 8move | Tour planning | 25–35% travel reduction, 4–6 month payback | Vendor case study |
 | Multiple US home care agencies | USA | AlayaCare / ShiftCare | Tour planning + scheduling | 12–20% billable hours improvement in 60 days | Vendor case study |
 
-## Internal / Estimated Figures (CareNest-Specific)
+## Internal / Estimated Figures (Cleo-Specific)
 
-The following figures are **assumptions or estimates** made for this exercise, not externally sourced data. They should be validated by Cleo before being used in a board-level business case (see "Open Assumptions" in `research/use_case_discovery.md` §6):
+The following figures are **assumptions or estimates** made for this exercise, not externally sourced data. They should be validated by Clara before being used in a board-level business case (see "Open Assumptions" in `research/use_case_discovery.md` §6):
 
-- CareNest staffing (85 caregivers, 15 coordinators, 10 admin), client base (~320), and turnover rate (~35%)
+- Cleo staffing (85 caregivers, 15 coordinators, 10 admin), client base (~320), and turnover rate (~35%)
 - Caregiver replacement cost (€3,500–€5,500 per exit) and resulting €135,000/year turnover cost estimate
 - Implementation cost and benefit estimates for Phases 1–3 (see `cost_estimation/cost_analysis.md`)

@@ -1,5 +1,5 @@
 """
-CareNest AI Adoption — Evidence Dashboard
+Cleo AI Adoption — Evidence Dashboard
 Run with: streamlit run dashboard/app.py
 """
 
@@ -12,7 +12,7 @@ import streamlit as st
 
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "processed" / "dashboard_data.json"
 
-st.set_page_config(page_title="CareNest AI Adoption — Evidence Dashboard", layout="wide")
+st.set_page_config(page_title="Cleo AI Adoption — Evidence Dashboard", layout="wide")
 
 
 @st.cache_data
@@ -23,17 +23,17 @@ def load_data():
 
 data = load_data()
 
-st.title("CareNest AI Adoption — Evidence Dashboard")
+st.title("Cleo AI Adoption — Evidence Dashboard")
 st.caption(
     "A communication layer for the AI investment case. Every figure links back to "
     "`market_research.md`, `opportunities_risks.md`, `use_case_discovery.md` and "
-    "`carenest_growth_strategy.md`. Hover any chart for sources."
+    "`cleo_growth_strategy.md`. Hover any chart for sources."
 )
 
-page1, page2 = st.tabs(["CareNest Current Data", "Market & Sector Evidence"])
+page1, page2 = st.tabs(["Cleo Current Data", "Market & Sector Evidence"])
 
 # ---------------------------------------------------------------------------
-# Page 1 — CareNest current data
+# Page 1 — Cleo current data
 # ---------------------------------------------------------------------------
 with page1:
     # Metric 3 — Caregiver turnover cost (stat cards)
@@ -52,14 +52,14 @@ with page1:
 
     st.divider()
 
-    # Metric 6 — CareNest vs sector scorecard
+    # Metric 6 — Cleo vs sector scorecard
     m6 = data["metric6_scorecard"]
     st.header(m6["title"])
 
     for row in m6["rows"]:
         st.markdown(f"**{row['metric']}**")
         c1, c2, c3 = st.columns(3)
-        c1.markdown(f"*CareNest*\n\n{row['carenest']}")
+        c1.markdown(f"*Cleo*\n\n{row['cleo']}")
         c2.markdown(f"*Sector*\n\n{row['sector']}")
         c3.markdown(f"*Position*\n\n{row['position']}")
         st.caption(f"Source: {row['source']}")

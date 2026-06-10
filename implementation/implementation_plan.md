@@ -8,10 +8,10 @@ Implementation follows a **discovery → pilot → rollout → embed** sequence 
 
 **Phase A — Discovery & Validation (Weeks 1–4)**
 
-Confirm the business case with CareNest-specific data before committing to a vendor contract.
+Confirm the business case with Cleo-specific data before committing to a vendor contract.
 
-- Run a 2-week documentation time-tracking exercise across 10–15 caregivers to establish CareNest's actual baseline (not the sector average).
-- Confirm device policy: voize requires smartphones. Determine whether CareNest will issue company devices or adopt BYOD — personal devices create DSGVO data-separation complications.
+- Run a 2-week documentation time-tracking exercise across 10–15 caregivers to establish Cleo's actual baseline (not the sector average).
+- Confirm device policy: voize requires smartphones. Determine whether Cleo will issue company devices or adopt BYOD — personal devices create DSGVO data-separation complications.
 - Engage legal counsel to review the voize AVV (data processing agreement). Visit notes are DSGVO Article 9 health data; this review must be complete before signing.
 - Send Betriebsrat notification. Co-determination is only mandatory at Phase 3, but early engagement signals good faith and prevents delays later.
 - Select pilot cohort: 10–15 volunteer caregivers from one Bezirk. Volunteers reduce adoption friction significantly versus mandated participation.
@@ -46,7 +46,7 @@ Extend to all 85 field caregivers across all three Bezirke.
 Sustain adoption and prepare the ground for Phase 2.
 
 - Integrate documentation quality metrics into the existing coordinator review workflow.
-- Run a 3-month post-rollout review to confirm Charité-level savings are being achieved at CareNest.
+- Run a 3-month post-rollout review to confirm Charité-level savings are being achieved at Cleo.
 - Begin HR data quality audit in parallel — preparatory step for Phase 3 churn prediction.
 - Share learnings with Betriebsrat as goodwill ahead of Phase 3 consultation.
 
@@ -77,7 +77,7 @@ Sustain adoption and prepare the ground for Phase 2.
 
 ## Assumptions
 
-- CareNest will provide or subsidise company-issued smartphones. If BYOD is chosen, a DSGVO legal assessment must precede any deployment.
+- Cleo will provide or subsidise company-issued smartphones. If BYOD is chosen, a DSGVO legal assessment must precede any deployment.
 - MEDIFOX DAN API access is available and the vendor can support integration — confirm in the Phase A vendor scoping call.
 - Pilot cohort participation is voluntary. Mandated participation materially increases resistance.
 - Care coordinators are briefed *before* rollout, not after. Coordinator resistance is the most common failure mode for documentation AI in care settings.

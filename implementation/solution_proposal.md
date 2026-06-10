@@ -2,7 +2,7 @@
 
 ## Recommended AI Adoption Opportunity
 
-Deploy **voice-to-text AI documentation** as CareNest GmbH's first AI initiative. The recommended solution is **voize** — a German-market care documentation platform that integrates with MEDIFOX DAN via API, allowing caregivers to dictate visit notes on-site rather than typing them manually after each visit.
+Deploy **voice-to-text AI documentation** as Cleo GmbH's first AI initiative. The recommended solution is **voize** — a German-market care documentation platform that integrates with MEDIFOX DAN via API, allowing caregivers to dictate visit notes on-site rather than typing them manually after each visit.
 
 ## Rationale
 
@@ -17,8 +17,8 @@ The recommendation rests on the strongest available evidence in the German ambul
 - **Trust-building**: a visible, daily-use tool builds caregiver confidence in AI before the more sensitive churn prediction deployment in Phase 3.
 - **Lowest cost and risk**: smallest upfront investment with the fastest payback of the three use cases.
 
-**Fit for CareNest's size**
-At 120 staff and ~320 clients, CareNest is large enough to realise material ROI but small enough to roll out in a single cohort — limiting implementation complexity and risk.
+**Fit for Cleo's size**
+At 120 staff and ~320 clients, Cleo is large enough to realise material ROI but small enough to roll out in a single cohort — limiting implementation complexity and risk.
 
 ## Expected Impact
 
@@ -31,4 +31,4 @@ At 120 staff and ~320 clients, CareNest is large enough to realise material ROI 
 | Payback period | 4–5 months |
 | 3-year contribution to combined ROI | Part of ~290% combined ROI across all phases |
 
-> **Key caveat:** Benefit figures are based on sector averages. CareNest should run a 2-week caregiver time-tracking exercise before contract signature to establish its own baseline — this is the single most important validation step before committing.
+> **Key caveat:** Benefit figures are based on sector averages. Cleo should run a 2-week caregiver time-tracking exercise before contract signature to establish its own baseline — this is the single most important validation step before committing.

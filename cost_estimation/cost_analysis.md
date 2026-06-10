@@ -2,7 +2,7 @@
 
 ## Cost Breakdown
 
-All figures are high-level ranges based on comparable Pflegedienst deployments and publicly available vendor pricing. CareNest should request formal quotes from voize and competing vendors during Phase A discovery.
+All figures are high-level ranges based on comparable Pflegedienst deployments and publicly available vendor pricing. Cleo should request formal quotes from voize and competing vendors during Phase A discovery.
 
 **Year 1 — Upfront and Recurring Costs**
 
@@ -17,7 +17,7 @@ All figures are high-level ranges based on comparable Pflegedienst deployments a
 | Device hardware — company smartphones, if required | €0 – €8,500 | €100–€200 per device × 85 caregivers |
 | **Total Year 1 (worst case, incl. devices)** | **~€17,500 – €22,000** | |
 
-> **Device note:** If CareNest already issues smartphones, the hardware line is €0. If not, leasing options are available and may spread this cost across 24–36 months.
+> **Device note:** If Cleo already issues smartphones, the hardware line is €0. If not, leasing options are available and may spread this cost across 24–36 months.
 
 **Year 2+ — Recurring Costs Only**
 
@@ -43,6 +43,6 @@ All figures are high-level ranges based on comparable Pflegedienst deployments a
 
 - **27% documentation time reduction** is used as the benefit baseline, sourced from the Charité Berlin PYSA study (peer-reviewed, n=52, 770h). The voize vendor-claimed 61% figure is not used — it reflects an optimistic pilot environment rather than steady-state operations.
 - **Blended caregiver hourly rate of €16** is consistent with published German ambulatory care sector benchmarks (Tarifvertrag Caritas / AWO scale).
-- **Documentation time = 10% of total caregiver hours** is a sector average. CareNest's actual figure should be established in the Phase A 2-week time-tracking exercise — this is the highest-leverage assumption in the model.
+- **Documentation time = 10% of total caregiver hours** is a sector average. Cleo's actual figure should be established in the Phase A 2-week time-tracking exercise — this is the highest-leverage assumption in the model.
 - Software licence pricing is indicative. voize and competitors (Sprachassistent Pflege, Mentalab) may negotiate volume rates for an 85-caregiver deployment.
 - Benefit figures assume freed documentation time is redirected to client care or used to absorb existing overtime — not that headcount is reduced.
