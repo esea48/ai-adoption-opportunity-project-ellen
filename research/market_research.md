@@ -61,6 +61,16 @@ Documentation quality is one of the most frequently cited findings in MD inspect
 
 A 30-caregiver Pflegedienst faces the same compliance obligations as a 300-person operator, making the administrative burden disproportionately heavy for medium-sized providers. AI documentation tools that enforce structured, complete notes reduce this burden while simultaneously producing inspection-ready records.
 
+### 1.5 Policy tailwinds: funding and regulatory drivers for digitalisation
+
+Beyond the financing pressure described in §1.3, there are three policy-level developments that specifically favour AI/digitalisation adoption now rather than later:
+
+- **PUEG §8 digitalisation funding programme.** Under the Pflegeunterstützungs- und -entlastungsgesetz (PUEG), the federal government runs a co-funding programme for care provider digitalisation projects, extended through 2030. Smaller providers (reportedly those with up to ~25 care staff) receive a higher funding share and lower own-contribution requirement; larger providers — which would include CareNest at ~85 caregivers — receive a standard rate, reported at up to 40% of project costs. **To verify before quoting to Cleo:** the exact percentage, eligibility threshold, and whether CareNest's scale qualifies for the standard or a reduced rate. MEDIFOX DAN reportedly has certified funding advisors who can run the application process — worth confirming as part of vendor selection for Phase 1.
+- **Telematikinfrastruktur (TI) connection mandate.** Ambulatory Pflegedienste were reportedly required to connect to Germany's national health data network (TI) by July 2025, enabling electronic prescriptions and patient records. **To verify:** CareNest's current TI connection status. If already compliant, this reframes AI documentation as building on infrastructure CareNest already has rather than a separate digitalisation step — strengthening the case that the marginal cost of adding voice AI documentation is low.
+- **Zukunftspakt Pflege reform (2026).** The reform commission referenced in §1.3 reportedly delivered recommendations at the end of 2025, with legislation expected during 2026, prioritising ambulatory/home care strengthening and simplified access to Pflegeversicherung benefits. Directionally positive for CareNest's core business, but likely to bring increased client volume and documentation requirements at the same time — providers with efficient digital operations in place before the reform lands will be better positioned to absorb the growth.
+
+**Implication for CareNest:** If the PUEG §8 subsidy applies as described, it could materially improve Phase 1's already-strong payback period by reducing the net implementation cost (see `opportunities_risks.md` §1.1). All three points strengthen the "move now" framing in `carenest_growth_strategy.md`, but the funding and TI-status claims should be confirmed with a vendor/funding advisor before being presented to Cleo as fixed figures.
+
 ---
 
 ## 2. AI Adoption Signals

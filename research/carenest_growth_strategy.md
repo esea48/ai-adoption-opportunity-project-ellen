@@ -98,6 +98,8 @@ Second, tour planning AI is specifically built for geographic complexity. The Ve
 
 Third, CareNest's brand and quality rating are portable. A strong MD inspection rating — which AI documentation directly supports — is a reputational asset that transfers to new districts and accelerates client acquisition.
 
+**A secondary benefit of district expansion: revenue mix.** Districts like Charlottenburg-Wilmersdorf and Steglitz-Zehlendorf have a higher concentration of private-pay demand than CareNest's current footprint. Expanding into these districts would, as a side effect, gradually increase CareNest's share of private-pay revenue — improving margins without requiring a deliberate strategic pivot away from SGB XI. This should not be read as a path to reducing reliance on the Pflegeversicherung; the German market structure makes a full pivot to private pay unrealistic. It is a margin improvement that comes "for free" with the expansion already recommended for capacity reasons.
+
 **The realistic expansion timeline:** If Phase 1 deploys in Q3 2026 and Phase 2 in Q1 2027, CareNest could credibly begin scoping a fourth district pilot in late 2027, with a full expansion programme in 2028–2029. By 2030, a four-to-five district CareNest could be serving 600–700 clients — roughly double its current scale — while operating at higher efficiency than it does today at 320.
 
 ---
@@ -112,6 +114,7 @@ Before this growth strategy can be treated as a financial commitment rather than
 | Do caregivers have company-issued smartphones? | Determines voize feasibility for Phase 1 without DSGVO complications | Before Phase 1 contract |
 | What does CareNest's HR data look like — structured records or partial/paper? | Determines whether Phase 3 churn prediction can be built on current data or needs preparation first | Begin audit during Phase 1 |
 | Has preliminary Betriebsrat engagement begun? | BetrVG §87 co-determination for Phase 3 must start now to be ready in time | Immediate |
+| What share of CareNest's current revenue is private-pay (Eigenanteil top-ups or fully self-funded) vs. SGB XI reimbursement? | If CareNest's private-pay share is already unusually high relative to the ~10–15% sector norm, the strategic case for prioritising expansion into wealthier Bezirke strengthens further | Informational — useful for §5 but not blocking |
 
 ---
 
