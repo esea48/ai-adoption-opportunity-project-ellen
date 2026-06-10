@@ -72,7 +72,8 @@ Supporting cost and timeline detail: [cost_estimation/cost_analysis.md](cost_est
 │   └── cleo_growth_strategy.md # 5-year growth outlook enabled by AI adoption
 ├── dashboard/
 │   ├── app.py                      # Streamlit dashboard
-│   └── dashboard_documentation.md  # Dashboard usage, metrics, design rationale
+│   ├── dashboard_documentation.md  # Dashboard usage, metrics, design rationale
+│   └── screenshots/                 # Dashboard screenshots
 ├── implementation/
 │   ├── solution_proposal.md        # Recommended AI adoption opportunity & rationale
 │   └── implementation_plan.md      # Phased rollout, timeline, cost summary, assumptions
