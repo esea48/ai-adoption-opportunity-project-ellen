@@ -165,6 +165,44 @@ with page2:
 
     st.divider()
 
+    # Call-out — Why documentation AI? Industry case vs. German evidence
+    st.subheader("Why documentation AI? The industry case vs. the German evidence")
+    st.markdown(
+        """
+        <div style="border-radius:12px; overflow:hidden; border:1px solid #444; margin-bottom:0.5rem;">
+            <div style="background-color:#b71c1c; color:#ffffff; padding:1.5rem 1.5rem 1.25rem 1.5rem; text-align:center;">
+                <div style="font-size:0.8rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; opacity:0.85;">
+                    The industry-wide reality
+                </div>
+                <div style="font-size:2.3rem; font-weight:800; line-height:1.2; margin:0.4rem 0;">
+                    2 hours of admin for every 1 hour of care
+                </div>
+                <div style="font-size:0.78rem; opacity:0.8;">
+                    Source: AMA / Annals of Internal Medicine — industry-wide
+                </div>
+            </div>
+            <div style="background-color:#e8f5e9; color:#1b3a1e; padding:1.1rem 1.5rem; text-align:center; border-top:4px solid #2e7d32;">
+                <div style="font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:#2e7d32;">
+                    Cleo's target — grounded in peer-reviewed German evidence
+                </div>
+                <div style="font-size:1.5rem; font-weight:700; margin:0.35rem 0;">
+                    Target: 27% documentation time reduction
+                </div>
+                <div style="font-size:0.78rem; opacity:0.75;">
+                    Source: Charité Berlin PYSA study — peer-reviewed, n=52
+                </div>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    st.caption(
+        "The industry-wide figure sets the scale of the problem; the Charité PYSA result is the "
+        "specific, peer-reviewed German number underpinning Cleo's ROI model."
+    )
+
+    st.divider()
+
     # Metric 5 — AI documentation time savings, evidence strength
     m5 = data["metric5_documentation_savings"]
     st.header(m5["title"])
