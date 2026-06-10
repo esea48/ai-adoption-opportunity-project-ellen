@@ -83,6 +83,8 @@ Consolidated source list for all market research, opportunity/risk analysis, and
 
 The following figures are **assumptions or estimates** made for this exercise, not externally sourced data. They should be validated by Clara before being used in a board-level business case (see "Open Assumptions" in `research/use_case_discovery.md` §6):
 
-- Cleo staffing (85 caregivers, 15 coordinators, 10 admin), client base (~320), and turnover rate (~35%)
+- Cleo staffing, client base, and turnover rate (~35%) — staffing and client figures are sector-benchmark estimates for a mid-sized ambulatory Pflegedienst (~100–150 staff), not verified internal data
 - Caregiver replacement cost (€3,500–€5,500 per exit) and resulting €135,000/year turnover cost estimate
 - Implementation cost and benefit estimates for Phases 1–3 (see `cost_estimation/cost_analysis.md`)
+
+> **Note on figures:** All staff and client figures in this document are sector-benchmark estimates for a mid-sized ambulatory Pflegedienst. No internal Cleo data was used.

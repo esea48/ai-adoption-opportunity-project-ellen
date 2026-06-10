@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-Cleo is not constrained by demand. Berlin's ageing population guarantees a growing client pipeline for the foreseeable future. The constraint is operational capacity — specifically, how many clients Cleo's existing 85 caregivers can serve within a given working day.
+Cleo is not constrained by demand. Berlin's ageing population guarantees a growing client pipeline for the foreseeable future. The constraint is operational capacity — specifically, how many clients Cleo's existing field caregiver workforce (assumed ~85 at this company size) can serve within a given working day.
 
 The three AI use cases identified in this engagement — care documentation, tour planning optimisation, and staff churn prediction — collectively unlock the equivalent of 12 to 16 additional full-time caregiver positions from Cleo's existing workforce. Without a single new hire, that translates into capacity for 40 to 60 additional clients and an estimated €190,000 to €300,000 in additional annual revenue under the base case scenario.
 
@@ -34,13 +34,13 @@ The three use cases work as a compounding system, not three isolated tools. Thin
 
 ### Phase 1 — Care Documentation: recovering daily time
 
-Every caregiver spends an estimated 20–30% of their working time on documentation. A voice AI tool (such as voize, already deployed in 2,000+ German care facilities) reduces that burden by 27% on average, based on the Charité Berlin PYSA study. Across 85 caregivers, that recovered time is the equivalent of roughly 10–12 additional hours of productive care capacity per day — time that can be redirected to more client visits.
+Every caregiver spends an estimated 20–30% of their working time on documentation. A voice AI tool (such as voize, already deployed in 2,000+ German care facilities) reduces that burden by 27% on average, based on the Charité Berlin PYSA study. Across the assumed ~85-caregiver workforce, that recovered time is the equivalent of roughly 10–12 additional hours of productive care capacity per day — time that can be redirected to more client visits.
 
 **Growth impact:** Supports serving an additional 15–25 clients from existing headcount, with no new infrastructure required.
 
 ### Phase 2 — Tour Planning Optimisation: recovering travel time
 
-Unoptimised routes are invisible lost capacity. Comparable European home care operators have achieved 20–35% reductions in caregiver travel time through AI route optimisation. For Cleo's 85 caregivers operating across Berlin's districts, that translates into the equivalent of 5–8 additional caregiver hours per day freed from windshield time.
+Unoptimised routes are invisible lost capacity. Comparable European home care operators have achieved 20–35% reductions in caregiver travel time through AI route optimisation. For Cleo's caregiver workforce (assumed ~85) operating across Berlin's districts, that translates into the equivalent of 5–8 additional caregiver hours per day freed from windshield time.
 
 **Growth impact:** Supports serving an additional 15–25 clients — but only if Cleo has a client waitlist to fill the freed capacity. Clara must confirm current utilisation rate before this figure can be confirmed.
 
@@ -56,13 +56,13 @@ At 35% annual turnover, Cleo loses approximately 30 caregivers per year. Each ex
 
 The table below shows Cleo's projected client capacity under three scenarios, assuming all three AI phases are deployed by the end of Year 2.
 
-| Scenario | Current clients | Additional capacity unlocked | Clients by Year 3 | Clients by Year 5 | Est. revenue uplift (annual) |
+| Scenario | Current clients (assumed) | Additional capacity unlocked | Clients by Year 3 | Clients by Year 5 | Est. revenue uplift (annual) |
 |---|---|---|---|---|---|
-| Conservative | 320 | +30–40 | ~370 | ~400 | +€150,000–€200,000 |
-| Base case | 320 | +45–60 | ~400 | ~450 | +€225,000–€300,000 |
-| Optimistic | 320 | +65–85 | ~430 | ~510 | +€325,000–€430,000 |
+| Conservative | ~320 | +30–40 | ~370 | ~400 | +€150,000–€200,000 |
+| Base case | ~320 | +45–60 | ~400 | ~450 | +€225,000–€300,000 |
+| Optimistic | ~320 | +65–85 | ~430 | ~510 | +€325,000–€430,000 |
 
-> Revenue estimates use an average of €420 per client per month, consistent with Berlin SGB XI ambulatory care reimbursement rates. All figures are net of AI implementation and licence costs.
+> Revenue estimates use an average of €420 per client per month, consistent with Berlin SGB XI ambulatory care reimbursement rates. All figures are net of AI implementation and licence costs. The current client base (~320) is a sector-benchmark estimate for a Pflegedienst of this size, not verified internal data — all projections below are illustrative.
 
 The "without AI" trajectory — status quo, relying on organic demand growth alone and current operational efficiency — projects Cleo reaching approximately 340–350 clients by Year 5. The gap between that trajectory and the base case represents roughly €150,000–€200,000 in annual revenue that AI investment either captures or forfeits.
 
@@ -80,9 +80,9 @@ Cleo cannot charge more per visit — rates are fixed by Krankenkasse agreements
 
 AI can free up to 30–35% additional capacity from the existing workforce. Beyond that threshold, further growth requires hiring. In a market where Germany is projected to face a shortfall of 500,000 care workers by 2034, recruitment is difficult and expensive. Cleo's growth strategy beyond a 35–40% client increase must include an active recruitment and training programme — the AI investment supports this by making Cleo a more attractive employer (less burnout, better schedules), but does not replace the need to hire.
 
-### Soft ceiling: three-district operating footprint
+### Soft ceiling: limited operating footprint
 
-Cleo currently operates in three Berlin Bezirke. Expanding to additional districts is the most realistic path to step-change growth once AI has stabilised operations internally. Berlin has twelve Bezirke, and the ambulatory care market is highly fragmented — most providers are small, single-district operators. A well-run, AI-optimised Cleo entering two or three new districts would be entering markets with structural demand and limited competition from operationally sophisticated providers.
+Cleo currently operates across multiple Berlin Bezirke. Expanding to additional districts is the most realistic path to step-change growth once AI has stabilised operations internally. Berlin has twelve Bezirke, and the ambulatory care market is highly fragmented — most providers are small, single- or few-district operators. A well-run, AI-optimised Cleo entering two or three new districts would be entering markets with structural demand and limited competition from operationally sophisticated providers.
 
 ---
 
@@ -100,7 +100,7 @@ Third, Cleo's brand and quality rating are portable. A strong MD inspection rati
 
 **A secondary benefit of district expansion: revenue mix.** Districts like Charlottenburg-Wilmersdorf and Steglitz-Zehlendorf have a higher concentration of private-pay demand than Cleo's current footprint. Expanding into these districts would, as a side effect, gradually increase Cleo's share of private-pay revenue — improving margins without requiring a deliberate strategic pivot away from SGB XI. This should not be read as a path to reducing reliance on the Pflegeversicherung; the German market structure makes a full pivot to private pay unrealistic. It is a margin improvement that comes "for free" with the expansion already recommended for capacity reasons.
 
-**The realistic expansion timeline:** If Phase 1 deploys in Q3 2026 and Phase 2 in Q1 2027, Cleo could credibly begin scoping a fourth district pilot in late 2027, with a full expansion programme in 2028–2029. By 2030, a four-to-five district Cleo could be serving 600–700 clients — roughly double its current scale — while operating at higher efficiency than it does today at 320.
+**The realistic expansion timeline:** If Phase 1 deploys in Q3 2026 and Phase 2 in Q1 2027, Cleo could credibly begin scoping a fourth district pilot in late 2027, with a full expansion programme in 2028–2029. By 2030, a four-to-five district Cleo could be serving 600–700 clients — roughly double its assumed current scale of ~320 — while operating at higher efficiency than it does today.
 
 ---
 
@@ -125,6 +125,10 @@ Cleo is in a structurally advantaged position. It operates in a growing market, 
 The growth is not guaranteed — it depends on demand being present, caregivers being retained, and district expansion being executed well. But the direction is clear, the market data supports it, and the tools to pursue it now exist and are proven in the German care sector.
 
 The question is not whether to invest. It is how quickly Cleo can move.
+
+---
+
+> **Note on figures:** All staff and client figures in this document are sector-benchmark estimates for a mid-sized ambulatory Pflegedienst (~100–150 staff). No internal Cleo data was used.
 
 ---
 

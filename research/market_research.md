@@ -14,7 +14,7 @@
 
 Germany's elderly population is the primary driver of structural demand growth in home care. In 2024, 23.2% of Germany's 84 million people were aged 65 or older — a proportion projected to reach 24 million by 2050, with the 80+ cohort (currently at 7.2%) driving the most intensive care demand. The federal government projects up to 7 million people in need of care by mid-century, up from approximately 5.2 million today.
 
-Berlin's population is ageing faster than the national average in absolute terms due to urban demographic concentration. Cleo's three-district operating area sits within a city experiencing pronounced growth in the 75+ cohort, and public policy strongly favours ambulatory (home-based) care over residential placement — meaning demand flows preferentially to providers like Cleo rather than nursing homes.
+Berlin's population is ageing faster than the national average in absolute terms due to urban demographic concentration. Cleo's multi-district operating area sits within a city experiencing pronounced growth in the 75+ cohort, and public policy strongly favours ambulatory (home-based) care over residential placement — meaning demand flows preferentially to providers like Cleo rather than nursing homes.
 
 The German home care services market was valued at approximately USD 11.5 billion in 2024 and is projected to grow at a CAGR of 5.8% through 2035, reaching over USD 21 billion. The elderly care services market more broadly was valued at USD 22.35 billion in 2024 and is forecast to reach USD 34.28 billion by 2030, growing at a CAGR of 7.35%.
 
@@ -65,7 +65,7 @@ A 30-caregiver Pflegedienst faces the same compliance obligations as a 300-perso
 
 Beyond the financing pressure described in §1.3, there are three policy-level developments that specifically favour AI/digitalisation adoption now rather than later:
 
-- **PUEG §8 digitalisation funding programme.** Under the Pflegeunterstützungs- und -entlastungsgesetz (PUEG), the federal government runs a co-funding programme for care provider digitalisation projects, extended through 2030. Smaller providers (reportedly those with up to ~25 care staff) receive a higher funding share and lower own-contribution requirement; larger providers — which would include Cleo at ~85 caregivers — receive a standard rate, reported at up to 40% of project costs. **To verify before quoting to Clara:** the exact percentage, eligibility threshold, and whether Cleo's scale qualifies for the standard or a reduced rate. MEDIFOX DAN reportedly has certified funding advisors who can run the application process — worth confirming as part of vendor selection for Phase 1.
+- **PUEG §8 digitalisation funding programme.** Under the Pflegeunterstützungs- und -entlastungsgesetz (PUEG), the federal government runs a co-funding programme for care provider digitalisation projects, extended through 2030. Smaller providers (reportedly those with up to ~25 care staff) receive a higher funding share and lower own-contribution requirement; larger providers — which would include Cleo at its assumed scale (~85 caregivers, sector-benchmark estimate) — receive a standard rate, reported at up to 40% of project costs. **To verify before quoting to Clara:** the exact percentage, eligibility threshold, and whether Cleo's scale qualifies for the standard or a reduced rate. MEDIFOX DAN reportedly has certified funding advisors who can run the application process — worth confirming as part of vendor selection for Phase 1.
 - **Telematikinfrastruktur (TI) connection mandate.** Ambulatory Pflegedienste were reportedly required to connect to Germany's national health data network (TI) by July 2025, enabling electronic prescriptions and patient records. **To verify:** Cleo's current TI connection status. If already compliant, this reframes AI documentation as building on infrastructure Cleo already has rather than a separate digitalisation step — strengthening the case that the marginal cost of adding voice AI documentation is low.
 - **Zukunftspakt Pflege reform (2026).** The reform commission referenced in §1.3 reportedly delivered recommendations at the end of 2025, with legislation expected during 2026, prioritising ambulatory/home care strengthening and simplified access to Pflegeversicherung benefits. Directionally positive for Cleo's core business, but likely to bring increased client volume and documentation requirements at the same time — providers with efficient digital operations in place before the reform lands will be better positioned to absorb the growth.
 
@@ -176,6 +176,10 @@ The following German and comparable-market operators have deployed AI tools rele
 | Statista Pflegenotstand Dossier (2025) | 500,000 worker shortfall by 2034; 85% of patients cared for at home |
 | ILO Working Paper 161 (2025) | German nursing workforce composition; 31,000 unfilled vacancies 2024 |
 | IBM HR Analytics (Kaggle) | Churn prediction modelling dataset used in Part 2 dashboard |
+
+---
+
+> **Note on figures:** All staff and client figures relating to Cleo in this document are sector-benchmark estimates for a mid-sized ambulatory Pflegedienst (~100–150 staff). No internal Cleo data was used.
 
 ---
 

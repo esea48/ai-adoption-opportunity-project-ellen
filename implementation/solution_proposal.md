@@ -12,23 +12,25 @@ The recommendation rests on the strongest available evidence in the German ambul
 - voize is purpose-built for German Pflegedienste, DSGVO-compliant, and designed for MEDIFOX DAN integration.
 
 **Why Phase 1, not Phase 2 or 3**
-- **Broadest reach**: affects all 85 field caregivers from day one, versus 15 coordinators (Phase 2) or a background HR model (Phase 3).
+- **Broadest reach**: affects the majority of field caregivers from day one — typically 65–75% of total staff in a Pflegedienst of this size (sector average) — versus a small coordinator team (typically 10–20% of staff at this scale) in Phase 2, or a background HR model (Phase 3).
 - **No data dependencies**: voize works on existing infrastructure — no clean scheduling data or HR records required.
 - **Trust-building**: a visible, daily-use tool builds caregiver confidence in AI before the more sensitive churn prediction deployment in Phase 3.
 - **Lowest cost and risk**: smallest upfront investment with the fastest payback of the three use cases.
 
 **Fit for Cleo's size**
-At 120 staff and ~320 clients, Cleo is large enough to realise material ROI but small enough to roll out in a single cohort — limiting implementation complexity and risk.
+For a mid-sized Pflegedienst of 100–150 staff — the assumed company size — Cleo is large enough to realise material ROI but small enough to roll out in a single cohort — limiting implementation complexity and risk.
 
 ## Expected Impact
 
 | Metric | Estimate |
 |---|---|
 | Documentation time saved per caregiver | ~27% reduction (Charité baseline) |
-| Equivalent capacity unlocked (85 caregivers) | ~12–16 FTE hours per week |
+| Equivalent capacity unlocked (assumed ~85 field caregivers at this company size) | ~12–16 FTE hours per week |
 | Year 1 net benefit (base case) | €35,200 |
 | Year 1 upfront cost | ~€12,000 |
 | Payback period | 4–5 months |
-| 3-year contribution to combined ROI | Part of ~290% combined ROI across all phases |
+| 3-year contribution to combined ROI | Part of ~290% combined ROI across all phases — illustrative projection based on sector benchmarks, not verified internal data |
 
 > **Key caveat:** Benefit figures are based on sector averages. Cleo should run a 2-week caregiver time-tracking exercise before contract signature to establish its own baseline — this is the single most important validation step before committing.
+
+> **Note on figures:** All staff and client figures in this document are sector-benchmark estimates for a mid-sized ambulatory Pflegedienst. No internal Cleo data was used.

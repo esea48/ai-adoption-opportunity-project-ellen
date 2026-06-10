@@ -32,9 +32,9 @@ Validate performance in live conditions before full deployment.
 
 **Phase C — Full Rollout (Weeks 11–18)**
 
-Extend to all 85 field caregivers across all three Bezirke.
+Extend to all field caregivers (estimated ~85 for a Pflegedienst of this size) across operating locations.
 
-- Roll out in two cohorts of ~35 caregivers each, with a 3-week gap between cohorts to manage training capacity.
+- Roll out in two cohorts of ~35 caregivers each, with a 3-week gap between cohorts to manage training capacity — sized for a ~85-caregiver deployment.
 - Run 2-hour onboarding sessions per cohort, focused on dictation best practices and edge cases (noisy environments, complex notes).
 - Brief care coordinators separately before each cohort goes live — their buy-in is critical as the downstream recipients of AI-generated notes.
 - Establish a monthly review cadence with team leads.
@@ -64,16 +64,18 @@ Sustain adoption and prepare the ground for Phase 2.
 
 | Cost Item | Estimated Range |
 |---|---|
-| voize software licence (85 caregivers, 12 months) | €6,000 – €8,000 |
+| voize software licence (estimated 80–90 caregivers at this company size, 12 months) | €6,000 – €8,000 |
 | MEDIFOX DAN API integration (one-time) | €1,500 – €2,500 |
 | Staff onboarding & training (internal time) | €500 – €1,000 |
 | Legal review of AVV / DSGVO compliance | €500 – €1,000 |
 | IT setup and configuration | €500 – €1,000 |
 | **Total Year 1 (excl. devices)** | **~€9,000 – €13,500** |
-| Device hardware, if required (85 smartphones) | €0 – €8,500 |
+| Device hardware, if required (estimated 80–90 devices) | €0 – €8,500 |
 | **Total Year 1 (worst case, incl. devices)** | **~€17,500 – €22,000** |
 
 > See `cost_analysis.md` for full breakdown and benefit estimates.
+
+> **Note on figures:** All staff and client figures in this document are sector-benchmark estimates for a mid-sized ambulatory Pflegedienst. No internal Cleo data was used.
 
 ## Assumptions
 

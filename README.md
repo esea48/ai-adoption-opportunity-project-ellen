@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project assesses whether **Cleo GmbH**, a medium-sized ambulatory home care provider (~120 staff, ~320 clients) operating across three Berlin districts, should invest in AI tools — and if so, where to start.
+This project assesses whether **Cleo GmbH**, a medium-sized ambulatory home care provider (assumed ~100–150 staff, sector-typical client base for this size) operating across multiple Berlin districts, should invest in AI tools — and if so, where to start.
 
 The deliverable is an evidence-based investment case for Cleo's CEO, **Clara Hartman**, covering market research, an opportunity/risk map with hype-vs-evidence analysis, an interactive evidence dashboard, and a phased implementation plan.
 
@@ -10,16 +10,18 @@ The deliverable is an evidence-based investment case for Cleo's CEO, **Clara Har
 
 ## Use Case Discovery Summary
 
-- **Sector / company size:** Ambulatory elderly home care (Ambulante Pflege) in Berlin, Germany. Medium-sized provider (~85 field caregivers, 15 care coordinators, 10 admin staff).
+- **Sector / company size:** Ambulatory elderly home care (Ambulante Pflege) in Berlin, Germany. Medium-sized provider — assumed ~100–150 staff, with field caregivers typically making up 65–75% of staff and care coordinators 10–20%, per sector benchmarks for a Pflegedienst of this size.
 - **Stakeholders and needs:**
   - **Clara Hartman (CEO)** — needs an evidence-backed, sequenced AI investment plan with clear ROI.
-  - **Care coordinators (15)** — overloaded by manual tour planning and last-minute schedule changes.
-  - **Field caregivers (85)** — spend 20–30% of working time on documentation; high burnout and ~35% annual turnover.
+  - **Care coordinators** — overloaded by manual tour planning and last-minute schedule changes.
+  - **Field caregivers** — spend 20–30% of working time on documentation; high burnout and ~35% annual turnover.
   - **HR** — costly recruitment/retention churn (~€135,000/year in replacement costs).
   - **Compliance officer** — documentation completeness drives Medizinischer Dienst (MD) inspection outcomes and reimbursement risk.
   - **Betriebsrat (works council)** — has mandatory co-determination rights (BetrVG §87) over any system that monitors employee behaviour, relevant to churn prediction.
-- **Why this use case:** Of three candidates (care documentation, tour planning optimisation, staff churn prediction), **care documentation** was selected as Phase 1 because it has the strongest external evidence (a peer-reviewed Charité Berlin study found a 27% reduction in documentation time), the lowest cost (~€12,000 Year 1, 4–5 month payback), and the broadest immediate impact (all 85 caregivers, day one). Tour planning (Phase 2) and churn prediction (Phase 3) follow once Phase 1 builds adoption trust and data quality.
+- **Why this use case:** Of three candidates (care documentation, tour planning optimisation, staff churn prediction), **care documentation** was selected as Phase 1 because it has the strongest external evidence (a peer-reviewed Charité Berlin study found a 27% reduction in documentation time), the lowest cost (~€12,000 Year 1, 4–5 month payback), and the broadest immediate impact (all field caregivers, day one). Tour planning (Phase 2) and churn prediction (Phase 3) follow once Phase 1 builds adoption trust and data quality.
 - **Full discovery writeup:** [research/use_case_discovery.md](research/use_case_discovery.md)
+
+> **Note on figures:** All staff and client figures in this document are sector-benchmark estimates for a mid-sized ambulatory Pflegedienst. No internal Cleo data was used.
 
 ## Market Research Summary
 

@@ -40,8 +40,12 @@
     ],
     "note": "2015-2024 are historical/estimated, 2027-2035 are projections. Care workforce growth is flattening relative to the elderly population, while unfilled vacancies (right axis) widen sharply.",
     "sources": [
-      "Senatsverwaltung für Gesundheit Berlin (2023)",
-      "Bundesagentur für Arbeit (2025)"
+      "Statistisches Bundesamt (Destatis) — Pflegestatistik 2023 (PD24_478_224, PD24_033_23_12): elderly population figures and projections",
+      "Bundesagentur für Arbeit (2025): unfilled vacancy data",
+      "ILO Working Paper 161 (2025): care workforce supply figures",
+      "Senatsverwaltung für Gesundheit Berlin (2023): Berlin-specific ambulatory demand context",
+      "Tern Group / Statista Pflegenotstand Dossier (2025): workforce shortfall projections 2027–2035",
+      "Note: 2027–2035 projections are interpolated/estimated from the above sources — treat as illustrative trend, not point forecasts"
     ]
   },
   "metric2_ai_adoption": {
@@ -88,7 +92,8 @@
       {
         "label": "Average cost per exit",
         "value": "€3,860",
-        "context": "Recruitment, onboarding, temporary cover"
+        "context": "Estimated — midpoint of €3,500–€5,500 sector benchmark range for ambulatory Pflegedienste; not drawn from a single published study. See sources.md for derivation basis.",
+        "source_type": "estimate"
       },
       {
         "label": "Total annual turnover cost",

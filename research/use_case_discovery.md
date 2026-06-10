@@ -17,10 +17,10 @@
 **Company Name:** Cleo GmbH  
 **CEO:** Clara Hartman  
 **Sector:** Elderly Care / Home Care Services (Ambulante Pflege)  
-**Company Size:** Medium (approx. 120 employees)  
-**Location:** Berlin, operating across three Berlin districts (Bezirke)
+**Company Size:** Medium (assumed ~100–150 employees — sector-benchmark estimate, not verified internal data)  
+**Location:** Berlin, operating across multiple Berlin districts (Bezirke)
 
-Cleo GmbH is a privately owned ambulatory home care provider (ambulanter Pflegedienst) founded in 2014 and registered under German GmbH law. The company provides personalised in-home care services to elderly clients in Berlin, including daily living assistance (Grundpflege), medication management, companionship, and post-hospitalisation support. Cleo employs approximately 85 field caregivers (Pflegefachkräfte and Pflegehelfer), 15 care coordinators (Pflegedienstleitungen and Tourenplaner), 10 administrative staff, and a small management team.
+Cleo GmbH is a privately owned ambulatory home care provider (ambulanter Pflegedienst) founded in 2014 and registered under German GmbH law. The company provides personalised in-home care services to elderly clients in Berlin, including daily living assistance (Grundpflege), medication management, companionship, and post-hospitalisation support. For a Pflegedienst of this size, Cleo's workforce is assumed to follow sector-typical proportions: field caregivers (Pflegefachkräfte and Pflegehelfer) making up roughly 65–75% of staff, care coordinators (Pflegedienstleitungen and Tourenplaner) roughly 10–20%, plus administrative staff and a small management team.
 
 Cleo operates under the German Social Care Insurance framework (Soziale Pflegeversicherung, SGB XI) and is subject to quality inspection by the Medizinischer Dienst (MD). As a contracted provider, Cleo's reimbursement rates are largely determined by agreements with statutory health insurers (gesetzliche Krankenkassen), creating tight margin constraints typical of the German ambulatory care market.
 
@@ -37,8 +37,8 @@ The following stakeholders were identified through desk research and reasonable 
 | Stakeholder | Role | Key Pain Points |
 |---|---|---|
 | Clara Hartman | CEO (Geschäftsführerin) | Rising operational costs, difficulty scaling, uncertainty about AI ROI; needs evidence-backed, sequenced investment plan |
-| Care Coordinators / Tourenplaner (×15) | Schedule & oversee field visits | Manual tour planning is time-intensive; last-minute cancellations cause chaos; growing caseload with no additional headcount |
-| Field Caregivers / Pflegekräfte (×85) | Deliver in-home care | Burnout from inconsistent schedules; poor continuity with familiar clients; excessive time spent on manual Pflegedokumentation after each visit |
+| Care Coordinators / Tourenplaner (small team — typically 10–20% of staff at this scale) | Schedule & oversee field visits | Manual tour planning is time-intensive; last-minute cancellations cause chaos; growing caseload with no additional headcount |
+| Field Caregivers / Pflegekräfte (majority of staff — typically 65–75% at this scale) | Deliver in-home care | Burnout from inconsistent schedules; poor continuity with familiar clients; excessive time spent on manual Pflegedokumentation after each visit |
 | Clients & Families | Receive / oversee care | Want consistency of caregiver, real-time updates, peace of mind |
 | HR / People Manager | Recruitment & retention | High turnover rate (~35% annually, above sector average); costly re-hiring; Berlin labour market competition is intense |
 | Compliance Officer | Regulatory adherence | MD audit readiness, SGB XI documentation requirements, BDSG/DSGVO compliance; inconsistent or incomplete visit notes create inspection risk |
@@ -58,7 +58,7 @@ Three candidate use cases were identified during initial discovery, each mapped 
 
 AI-assisted matching of caregivers to client visits based on availability, geographic proximity within Berlin's districts, client preferences, caregiver qualification level (examinated vs. helper), and continuity-of-care history. The system surfaces optimal tour configurations and flags conflicts before coordinators finalise daily routes.
 
-**Relevance:** Directly addresses the daily operational bottleneck experienced by all 15 Tourenplaner. Reduces missed visits, overtime costs, and the administrative burden of manual tour planning — particularly relevant given Berlin's geographic spread across multiple Bezirke.
+**Relevance:** Directly addresses the daily operational bottleneck experienced by Cleo's coordinator team (Tourenplaner). Reduces missed visits, overtime costs, and the administrative burden of manual tour planning — particularly relevant given Berlin's geographic spread across multiple Bezirke.
 
 ### Use Case B — Staff Churn Prediction
 
@@ -98,7 +98,7 @@ The resequencing is driven by three evidence-based factors:
 
 2. **Lowest cost and fastest adoption path.** Estimated at €12,000 in Year 1 with a 4–5 month payback, documentation is the lowest-cost, fastest-to-value use case. Caregivers adopt voice tools more readily than analytics platforms because the personal benefit is immediate.
 
-3. **Broadest day-one impact.** Documentation burden affects all 85 field caregivers every working day. Tour planning primarily affects 15 coordinators. Starting with documentation means Cleo's AI investment is felt by the entire frontline workforce from week one — building the internal credibility that Phases 2 and 3 will depend on.
+3. **Broadest day-one impact.** Documentation burden affects all field caregivers — the majority of staff at this scale — every working day. Tour planning primarily affects the smaller coordinator team. Starting with documentation means Cleo's AI investment is felt by the entire frontline workforce from week one — building the internal credibility that Phases 2 and 3 will depend on.
 
 **Note on vendor landscape (updated from v1.0):** v1.0 described the NLP documentation market as "emerging" and cited Mediteo and Snap as examples. This assessment is outdated. voize is deployed in 2,000+ German care facilities with peer-reviewed efficacy data and direct MEDIFOX DAN integration. The documentation market should now be characterised as commercially mature and locally validated.
 
@@ -136,11 +136,13 @@ By Phase 3, both enabling conditions will be in place: Phase 1 will have improve
 
 | Phase | Use Case | Primary Beneficiary | Evidence Strength | Est. Y1 Cost | Est. Annual Benefit (Base) | Payback |
 |---|---|---|---|---|---|---|
-| Phase 1 | Care Documentation | 85 field caregivers | Strong — peer-reviewed German evidence (Charité/voize) | €12,000 | €35,200 | 4–5 months |
-| Phase 2 | Tour Planning Optimisation | 15 coordinators + capacity | Medium — European comparators, no German-specific study | €18,000 | €48,000 | 4–6 months |
+| Phase 1 | Care Documentation | All field caregivers (majority of staff) | Strong — peer-reviewed German evidence (Charité/voize) | €12,000 | €35,200 | 4–5 months |
+| Phase 2 | Tour Planning Optimisation | Coordinator team + capacity | Medium — European comparators, no German-specific study | €18,000 | €48,000 | 4–6 months |
 | Phase 3 | Staff Churn Prediction | HR + all caregivers | Developing — methodology proven, no German ambulatory case study | €22,000 | €67,500 | 4–5 months |
 
-Combined 3-year ROI (base case): approximately 290% net of all implementation and licence costs.
+Combined 3-year ROI (base case): approximately 290% net of all implementation and licence costs — illustrative projection based on sector benchmarks, not verified internal data.
+
+> **Note on figures:** All staff and client figures in this document are sector-benchmark estimates for a mid-sized ambulatory Pflegedienst (~100–150 staff). No internal Cleo data was used.
 
 ---
 

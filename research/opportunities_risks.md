@@ -14,7 +14,7 @@
 
 **Primary opportunity: significant caregiver time recovery with direct operational and compliance co-benefits**
 
-Documentation is where Cleo's largest workforce — 85 field caregivers — loses meaningful productive time every single working day. The opportunity is to recover that time, redirect it to billable client care, and simultaneously produce higher-quality records that reduce MD inspection risk.
+Documentation is where Cleo's largest workforce — field caregivers, assumed ~85 at this company size — loses meaningful productive time every single working day. The opportunity is to recover that time, redirect it to billable client care, and simultaneously produce higher-quality records that reduce MD inspection risk.
 
 The core financial case (base scenario): 35 minutes saved per visit × 30 caregivers × 4 visits/day × 220 working days × €14.50/hr = **€35,200/year** — against an implementation cost of €12,000 in Year 1 and a recurring licence of €6,000/year. Payback period: 4–5 months.
 
@@ -24,7 +24,7 @@ Beyond the direct time saving, documentation AI creates three compounding benefi
 
 - **Burnout reduction.** Documentation burden is consistently cited as a primary driver of exit intent in German care. Reducing it directly attacks the caregiver dissatisfaction that feeds Cleo's 35% turnover rate — without requiring the churn prediction model to be live.
 - **MD inspection readiness.** voize and comparable tools produce structured, consistent, timestamped notes that satisfy Medizinischer Dienst documentation requirements. Operators report fewer inspection findings and stronger quality ratings as a direct result.
-- **Pilot credibility.** A successful Phase 1 deployment builds internal confidence in AI technology across all 85 caregivers and demonstrates to the Betriebsrat that AI investment is beneficial to staff — creating a more receptive environment for Phases 2 and 3.
+- **Pilot credibility.** A successful Phase 1 deployment builds internal confidence in AI technology across all field caregivers (assumed ~85 at this company size) and demonstrates to the Betriebsrat that AI investment is beneficial to staff — creating a more receptive environment for Phases 2 and 3.
 
 **Secondary opportunity: early-mover advantage in a market moving fast**
 
@@ -68,7 +68,7 @@ By the time Phase 3 is deployed, Cleo will have 12–18 months of structured doc
 
 | Risk | Level | Detail |
 |---|---|---|
-| Device availability | High | voize is smartphone-based. If caregivers use personal devices, DSGVO creates a data separation problem. If no company devices exist, hardware costs (€150–300/device × 85 caregivers = up to €25,500) must be added to the model and may materially shift the ROI. Clara must confirm device policy before contract. |
+| Device availability | High | voize is smartphone-based. If caregivers use personal devices, DSGVO creates a data separation problem. If no company devices exist, hardware costs (€150–300/device × ~85 caregivers, estimated for this company size = up to €25,500) must be added to the model and may materially shift the ROI. Clara must confirm device policy before contract. |
 | Adoption rate | Medium | The ROI model assumes >70% consistent caregiver adoption. Adoption varies significantly with age, prior digital experience, and language background. Up to 18% of German care workers are foreign-born; voize supports multiple languages and dialect recognition, which mitigates but does not eliminate this risk. A structured onboarding programme with team champions is a mitigation measure. |
 | Ambulatory vs. inpatient evidence gap | Medium | The Charité PYSA study was conducted in inpatient (stationär) settings. Cleo is ambulatory (ambulant) — caregivers document in clients' homes, often on mobile data connections with variable quality. Workflow rhythms differ. The evidence is highly encouraging but is not a direct match; a paid pilot with a subset of caregivers is recommended before full deployment. |
 | DSGVO compliance for voice data | Medium | Voice-captured care notes are sensitive health data under DSGVO Article 9. Any vendor must offer EU-based data residency, a signed data processing agreement (Auftragsverarbeitungsvertrag / AVV), and clear consent flows for caregivers. voize is German-built and asserts compliance; Cleo's legal counsel should verify the AVV before signing. |
@@ -97,7 +97,7 @@ By the time Phase 3 is deployed, Cleo will have 12–18 months of structured doc
 | Intervention loop dependency | High | The model generates risk scores. Value is only realised if those scores trigger timely, effective management action: adjusted schedules, retention conversations, workload rebalancing. This is a management process that must be designed in parallel with the technology. The model alone does not reduce churn. Without a defined intervention protocol, the churn prediction tool becomes a reporting dashboard rather than a retention instrument. |
 | DSGVO / BDSG employee data processing | Medium | Individual churn risk scores constitute the processing of personal data for profiling purposes under DSGVO Article 22. The legal basis for this processing must be established (legitimate interest is the most likely basis, but requires a formal balancing test documented in a Datenschutz-Folgenabschätzung / DSFA). The Datenschutzbeauftragter (data protection officer) must be involved from the outset. |
 | EU AI Act risk classification | Medium | AI systems used to make or inform employment-related decisions may be classified as high-risk under the EU AI Act (Annex III, point 4). If the churn prediction model informs decisions about caregiver working conditions, schedules, or contracts, it may require conformity assessment, technical documentation, and human oversight provisions. Legal review required before vendor selection. |
-| Small dataset size | Low-Medium | Cleo has approximately 85 field caregivers. At 35% annual turnover, approximately 30 exits occur per year — a relatively small training signal for an ML model. The model will require careful validation and may benefit from transfer learning from a larger sector-level dataset before being fine-tuned on Cleo's own records. |
+| Small dataset size | Low-Medium | Cleo is assumed to have approximately 85 field caregivers (sector-benchmark estimate for this company size). At 35% annual turnover, approximately 30 exits occur per year — a relatively small training signal for an ML model. The model will require careful validation and may benefit from transfer learning from a larger sector-level dataset before being fine-tuned on Cleo's own records. |
 
 ---
 
@@ -148,6 +148,10 @@ The purpose of this section is to give Clara an honest assessment of where the e
 | Care Documentation (Ph. 1) | 27%+ documentation time reduction; compliance and burnout co-benefits | Device policy and ambulatory evidence gap | Strong — proceed to pilot |
 | Tour Planning (Ph. 2) | Capacity unlock under guaranteed demand growth | Revenue upside contingent on client waitlist | Conditional — validate utilisation first |
 | Churn Prediction (Ph. 3) | €67,500/year base case; improves over time as data quality grows | BetrVG legal prerequisite; intervention loop; data quality | Sequenced correctly — begin Betriebsrat engagement now |
+
+---
+
+> **Note on figures:** All staff and client figures in this document are sector-benchmark estimates for a mid-sized ambulatory Pflegedienst (~100–150 staff). No internal Cleo data was used.
 
 ---
 
