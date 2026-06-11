@@ -73,6 +73,12 @@ The full structure and content of each dashboard page — including which data p
 
 ---
 
+## Presentation
+
+A leadership-ready summary deck for Cleo is available in [presentation/AI_Adoption_Cleo_Berlin.pdf](presentation/AI_Adoption_Cleo_Berlin.pdf).
+
+---
+
 ## Implementation Plan
 
 The full four-phase implementation plan (Discovery → Pilot → Evaluate → Rollout, ~29–36 weeks) is here:
@@ -112,6 +118,8 @@ Cost benchmarks and the 2-year growth plan that follows a successful rollout:
 ├── cost_estimation/
 │   ├── cost_analysis.md            # Licensing, training, and total cost breakdown
 │   └── timeline_estimate.md        # Implementation timeline estimate
+├── presentation/
+│   └── AI_Adoption_Cleo_Berlin.pdf # Leadership presentation deck
 ├── .streamlit/
 │   └── config.toml                 # Dashboard theme configuration
 ├── requirements.txt                # Python dependencies for the dashboard
