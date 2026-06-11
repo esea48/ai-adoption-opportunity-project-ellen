@@ -1,53 +1,146 @@
 # Dashboard Documentation
+**Purpose:** Evidence dashboard for Cleo meeting — AI adoption opportunity for Berlin elderly care company
+**Audience:** Cleo (CEO, non-technical), senior leadership team
+**Format:** To be built in PowerBI (.pbix) or equivalent
 
-## Overview
+---
 
-A Streamlit evidence dashboard built as the communication layer for Cleo's AI investment case. It is designed for a non-technical CEO audience (Clara Hartman) and combines two layers of evidence:
+## Dashboard Purpose
 
-- **Internal business case context** (turnover cost, documentation evidence strength)
-- **External market context** (demographic pressure, financing pressure, AI adoption trends in Germany, UK, and US)
+The dashboard serves one primary goal: to convert research findings into **visual evidence** that answers Cleo's three core questions without requiring her to read reports.
 
-The goal is not to replace the four research documents (`use_case_discovery.md`, `market_research.md`, `opportunities_risks.md`, `cleo_growth_strategy.md`) but to give Clara a fast, visual way to grasp *why now* and *how credible* before reading the detail.
+| Cleo's Question | Dashboard Answer |
+|---|---|
+| "Is AI in care real or hype?" | Market size + adoption data with growth trajectory |
+| "What's the real problem I'm solving?" | Berlin-specific pain point data (burnout, documentation burden, staffing crisis) |
+| "What would it actually cost and return?" | ROI calculator with Berlin wage inputs |
 
-## How to Run
+---
 
-```bash
-pip install -r requirements.txt
-streamlit run dashboard/app.py
-```
+## Recommended Dashboard Structure
 
-Opens at `http://localhost:8501` by default.
+### Page 1 — The Market Signal
+*Headline: "The market has already decided. The question is when you join."*
 
-## Data Source
+**Visuals:**
+- Bar/line chart: AI in Elderly Care market growth ($56.78B → $387.52B, 2025–2035)
+- Callout card: 21.30% CAGR
+- Callout card: 1,100+ German care facilities already using AI documentation (Voize)
+- Callout card: 70%+ of German care operators believe AI will help — but most haven't acted yet
+- Germany Healthcare AI market bar: $2.72B (2024) → $16.76B (2035)
 
-All chart data and citations live in `data/processed/dashboard_data.json`. Each metric block includes a `source` (or per-series `source`) field — update the JSON to refresh figures; the app re-reads it on each run (cached with `st.cache_data`).
+**Key message:** The adoption wave is happening in Germany now. Early movers gain operational and recruitment advantage.
 
-## Key Metrics and Visuals
+---
 
-| # | Metric | Visual | Purpose |
-|---|---|---|---|
-| 1 | Elderly population vs. caregiver supply gap (DE/UK/US) | 3-panel dual-axis line chart (population vs. workforce per country) | The single most important context visual — demand for care is rising structurally across all three markets while workforce supply lags or is consumed by turnover |
-| 2 | AI adoption in elderly/home care — DE vs UK vs US | Horizontal bar chart, with explicit per-bar metric definitions | Frames the investment as "catching up" (Germany 20%, general AI) rather than "leading into the unknown" (US 91% AI-specific in home care, UK 73% care technology) |
-| 3 | Caregiver turnover cost | Stat card row | Anchors the Phase 3 churn use case in Cleo's actual €135,000/year cost |
-| 4 | Pflegeversicherung financing deficit, 2024–2029 | Bar chart (actual vs. projected) | Makes the urgency of efficiency investment visceral — the reimbursement system is under growing strain |
-| 5 | AI documentation time savings — evidence strength | Horizontal bar chart, colour-coded by evidence tier | Distinguishes peer-reviewed German evidence (27%, Charité/JMIR) from vendor pilot (61%) and US benchmark (60%) |
-| 6 | Cleo vs. sector — operational benchmarks | Scorecard (Cleo / Sector / Position per row) | Frames where Cleo sits today on turnover, documentation burden, and AI adoption |
-| 7 | Market growth headlines | 4 KPI cards | German home care CAGR, Berlin demand growth, national worker shortfall, Pflegeversicherung 2029 deficit |
+### Page 2 — The Problem (Why Now)
+*Headline: "Germany's care sector cannot hire its way out of this crisis."*
 
-## Sources
+**Visuals:**
+- Stacked bar: Projected German care demand vs. available workforce (2025–2035)
+- Callout card: 300,000 nurse shortfall projected by 2030
+- Callout card: 37% rise in long-term care demand by 2055
+- Donut chart: How a caregiver's shift is spent (30% documentation, 70% care)
+- Callout card: 62% of care workers cite admin overload as #1 driver of burnout
+- Callout card: Berlin average *Pflegekraft* wage: €23/hour
 
-Sources are cited inline in the dashboard (expanders/captions under each chart) and in full in `data/processed/dashboard_data.json`. New sources introduced for the international comparisons (Metrics 1 & 2, not previously in `market_research.md`):
+**Key message:** The problem is structural. Technology is not a nice-to-have — it is the only scalable solution to a workforce crisis that cannot be solved through hiring alone.
 
-- Statistisches Bundesamt (Destatis) — Pflegestatistik 2023, press releases PD24_478_224 and PD24_033_23_12
-- Office for National Statistics (ONS) — National Population Projections, 2024-based
-- Skills for Care — "The State of the Adult Social Care Sector and Workforce in England 2024"
-- DHSC / Digital Care Hub — "Technology Use in Adult Social Care: 2025 Survey Results"
-- U.S. Census Bureau — "Demographic Turning Points for the United States" (2020)
-- PHI (Paraprofessional Healthcare Institute) — "Direct Care Workers in the United States: Key Facts 2025"
-- AxisCare — 2026 Home Care Industry Survey
-- JMIR (2026) — "Time Savings Through an AI Speech Assistant for Nursing Documentation: Pre-Post Time-Motion Study in German Long-Term Care" (peer-reviewed publication of the Charité PYSA study referenced in `market_research.md`)
+---
 
-## Honesty Notes
+### Page 3 — Real vs. Overhyped
+*Headline: "Not all AI is equal. Here's what the data says."*
 
-- **Metric 1**: time periods differ by country because each national statistical agency publishes different baseline/projection years. Shown as small multiples to avoid implying false comparability.
-- **Metric 2**: the three national figures measure different things (AI-specific vs. general care technology vs. general-business AI). This is flagged explicitly in the dashboard rather than smoothed over, consistent with the hype-mapping approach in `opportunities_risks.md` §3.
+**Visuals:**
+- Quadrant matrix: AI applications plotted by Evidence Strength (Y-axis) vs. Implementation Readiness (X-axis)
+  - Top right (Real + Ready): Documentation AI, Fall Detection
+  - Top left (Real + Not Ready): Predictive Analytics, Remote Monitoring
+  - Bottom right (Overhyped + Deployed): Companion robots
+  - Bottom left (Avoid): Full care automation
+- Evidence cards for top two applications:
+  - Documentation AI: 1,100 facilities, 30 min/shift saved, 96% retention
+  - Fall detection: 27% fall reduction (Lindera), 58% fall reduction (Japanese study)
+
+**Key message:** Cleo should ignore vendor hype and focus on the two applications with the strongest evidence and lowest implementation risk.
+
+---
+
+### Page 4 — The Recommendation: Voize
+*Headline: "A Berlin startup built this specifically for your context."*
+
+**Visuals:**
+- Product card: Voize — logo, HQ (Berlin), founded (2020), funding ($50M Series A)
+- Deployment map: Germany and Austria — 1,100+ facilities marked
+- Comparison table: Voize vs. US alternatives (cost, language, GDPR, TI integration)
+- Cost callout: €12–€15/user/month
+- Time savings callout: ~30 min/shift
+
+**Key message:** This is not an experiment. Voize is deployed at scale in Germany, built for German nursing language, and costs 20–30× less than US alternatives.
+
+---
+
+### Page 5 — The ROI Case
+*Headline: "Payback in 4–8 weeks. Annual return of ~€105,800."*
+
+**Visuals:**
+- Interactive calculator (if PowerBI interactive):
+  - Input: Number of caregivers (default: 40)
+  - Input: Hourly wage (default: €23 — Berlin)
+  - Input: Minutes saved per shift (default: 30)
+  - Output: Annual value recovered
+  - Output: Payback period
+3-year financial picture (high cost estimate)
+- Callout: 3-year net return: +€271,600
+- Callout: Year 1 cost (high estimate): €21,200
+- Callout: Payback period (high estimate): ~7 weeks
+
+**Key message:** This is not a cost — it is an investment with a 7-week payback and a 7:1 three-year return.
+
+---
+
+### Page 6 — Implementation Roadmap
+*Headline: "7–8 months from decision to full deployment."*
+
+**Visuals:**
+- Gantt chart (simplified): 4 phases across 29–36 weeks
+  - Phase 1 (8–10 weeks): Discovery + Compliance
+  - Phase 2 (8–10 weeks): Pilot
+  - Phase 3 (3–4 weeks): Evaluate
+  - Phase 4 (10–12 weeks): Rollout
+- Risk callout: Betriebsrat — engage in Week 3, not after contract signing
+- Phase 2 roadmap preview: Lindera fall prevention (Year 2)
+
+**Key message:** The path is clear, the timeline is realistic, and the biggest risk (works council) is fully manageable with early engagement.
+
+---
+
+## Data Sources for Dashboard
+
+All data points are sourced and documented in `sources.md`. Key metrics to hardcode into the dashboard:
+
+| Metric | Value | Source |
+|---|---|---|
+| Global market size (2025) | $56.78B | InsightAce, Feb 2026 |
+| Global market size (2035) | $387.52B | InsightAce, Feb 2026 |
+| Germany Healthcare AI (2024) | $2.72B | MRFR, May 2025 |
+| Germany Healthcare AI (2035) | $16.76B | MRFR, May 2025 |
+| Voize facilities (Germany/Austria) | 1,100+ | EU-Startups, Nov 2025 |
+| Voize nurses supported | 75,000 | EU-Startups, Nov 2025 |
+| Voize price/user/month | €12–€15 | Messe.TV / Pflege+ |
+| Minutes saved/shift | ~30 mins | Startbase / Voize |
+| Berlin Pflegekraft hourly wage | €23 | JobVector Berlin, 2026 |
+| German nurse shortfall (2030) | 300,000 | Tern Group, 2025 |
+| Burnout: admin as #1 driver | 62% | Medscape, 2024 |
+| Fall reduction (Lindera) | 27% | Lindera MDR data |
+| Fall reduction (Japanese study) | 58% | CCA, Jan 2025 |
+| German operators who believe AI helps | 70%+ | myneva, Dec 2025 |
+
+---
+
+## Design Notes
+
+- **Colour palette:** Use greens for confirmed/real evidence; amber for promising/maturing; red for overhyped/risks
+- **Tone:** Professional but accessible — Cleo is a CEO, not a data scientist
+- **Avoid:** Jargon, acronyms without explanation, dense tables
+- **Lead with numbers:** Every page should have one headline callout number that a non-technical reader can absorb in 3 seconds
+- **Sources:** Each data point visible on hover or footnote — Cleo expressed scepticism about hype; sourcing builds credibility
