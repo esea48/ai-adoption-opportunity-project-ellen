@@ -20,16 +20,19 @@ The dashboard serves one primary goal: to convert research findings into **visua
 ## Recommended Dashboard Structure
 
 ### Page 1 — The Market Signal
-*Headline: "The market has already decided. The question is when you join."*
 
 **Visuals:**
-- Bar/line chart: AI in Elderly Care market growth ($56.78B → $387.52B, 2025–2035)
-- Callout card: 21.30% CAGR
-- Callout card: 1,100+ German care facilities already using AI documentation (Voize)
-- Callout card: 70%+ of German care operators believe AI will help — but most haven't acted yet
-- Germany Healthcare AI market bar: $2.72B (2024) → $16.76B (2035)
+- Bar chart: Sector AI adoption rates (2025, U.S. data) — Nursing/Residential Care (4.5%) lowest of all sectors vs. Healthcare avg (8.3%), Outpatient/Ambulatory (8.7%), Finance (11.6%), Education (15.1%), Prof/Sci/Tech (19.2%); nursing/residential grew only 3.1% → 4.5% from 2023–2025 (JAMA Health Forum / Census BTOS, via Skilled Nursing News, Dec 2025). Note: U.S. figures used as proxy — nursing/residential care lags every other sector on AI adoption.
 
-**Key message:** The adoption wave is happening in Germany now. Early movers gain operational and recruitment advantage.
+**Snapshot of German Digital Investment**
+- Callout card: 1,100+ German care facilities already using AI documentation (Voize)
+- Callout card: Government target of 70% AI documentation adoption by 2028 (Gemeinsam Digital 2026, BMG)
+- Callout card: German AI strategy budget already deployed — €3.38B of €5B (OECD, 2025)
+- Callout card: Federal digitization subsidy of up to €12,000 per facility (§8 SGB XI, claims open through 2030)
+- Info box: Telematikinfrastruktur connection mandate (July 2025) and digital billing requirement (Dec 2026)
+- Bar chart: German AI strategy budget — committed → directed → deployed (€5.0B → €3.5B → €3.38B)
+
+**Key message:** 1,100+ facilities are live on AI documentation today, and the German government targets 70% adoption by 2028 — backed by €3.38B in deployed funding. Early movers gain operational and recruitment advantage before this becomes the norm.
 
 ---
 
@@ -120,10 +123,9 @@ All data points are sourced and documented in `sources.md`. Key metrics to hardc
 
 | Metric | Value | Source |
 |---|---|---|
-| Global market size (2025) | $56.78B | InsightAce, Feb 2026 |
-| Global market size (2035) | $387.52B | InsightAce, Feb 2026 |
-| Germany Healthcare AI (2024) | $2.72B | MRFR, May 2025 |
-| Germany Healthcare AI (2035) | $16.76B | MRFR, May 2025 |
+| Govt AI documentation adoption target (2028) | 70% | Gemeinsam Digital 2026 (BMG) |
+| German AI strategy budget (total / deployed) | €5.0B / €3.38B | OECD Country Report on Germany, 2025 |
+| Federal digitization subsidy per facility | Up to €12,000 | §8 SGB XI |
 | Voize facilities (Germany/Austria) | 1,100+ | EU-Startups, Nov 2025 |
 | Voize nurses supported | 75,000 | EU-Startups, Nov 2025 |
 | Voize price/user/month | €12–€15 | Messe.TV / Pflege+ |
@@ -133,7 +135,6 @@ All data points are sourced and documented in `sources.md`. Key metrics to hardc
 | Burnout: admin as #1 driver | 62% | Medscape, 2024 |
 | Fall reduction (Lindera) | 27% | Lindera MDR data |
 | Fall reduction (Japanese study) | 58% | CCA, Jan 2025 |
-| German operators who believe AI helps | 70%+ | myneva, Dec 2025 |
 
 ---
 

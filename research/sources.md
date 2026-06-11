@@ -13,6 +13,7 @@ All sources referenced across research, proposal, and cost documents.
 | 4 | Fortune Business Insights | Global elderly care market: $53.29B (2025) → $114.57B (2034) | fortunebusinessinsights.com |
 | 5 | MRFR, May 2025 | Germany Healthcare AI: $2.72B (2024) → $16.76B (2035) at 17.04% CAGR | marketresearchfuture.com |
 | 6 | Knowledge Sourcing Intelligence, Nov 2025 | ~70% of senior living organisations using AI for predictive analytics; 63% use Microsoft Copilot | knowledge-sourcing.com |
+| 48 | JAMA Health Forum / Skilled Nursing News, Dec 2025 | Nursing/residential care AI adoption lowest of any healthcare subsector: 3.1% (2023) → 4.5% (2025), vs 8.3% healthcare avg and 19.2% for Prof/Sci/Tech | skillednursingnews.com |
 
 ---
 
@@ -67,6 +68,9 @@ All sources referenced across research, proposal, and cost documents.
 | 30 | ICLG Digital Health Germany, Feb 2026 | GDPR fines up to €20M or 4% global turnover for data protection failures | iclg.com |
 | 31 | BSI / Inside Privacy, Sept 2024 | BSI C5 Type 2 required for healthcare cloud services from July 2025 | insideprivacy.com |
 | 32 | CMS.law Expert Guide, Jun 2025 | DiPA: €53/month/patient reimbursement; DiPA directory not yet accessible (March 2025) | cms.law |
+| 33 | OECD Country Report on Germany, 2025 | National AI Strategy budget: €5B total, €3.38B deployed by Jun 2024 | oecd.org |
+| 34 | Gemeinsam Digital 2026 (BMG), via ICT&health, Jun 2026 | Government target: 70% of care facilities using AI documentation by 2028 | ict-and-health.com |
+| 35 | AOK Gesundheitspartner / vdek Berlin-Brandenburg, Apr 2024 | §8 SGB XI digitization subsidy: up to €12,000/facility, extended through 2030 under PUEG | aok.de |
 
 ---
 

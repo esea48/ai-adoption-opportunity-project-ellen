@@ -21,6 +21,7 @@ AMBER = "#f9a825"
 RED = "#c62828"
 BLUE = "#1565c0"
 GREY = "#757575"
+GOLD = "#FFCC00"
 
 st.set_page_config(page_title="Cleo AI Adoption — Evidence Dashboard", layout="wide")
 
@@ -45,79 +46,93 @@ st.caption(
 # Page 1 — The Market Signal
 # ---------------------------------------------------------------------------
 with page1:
-    st.header("The market has already decided. The question is when you join.")
-
-    cols = st.columns(3)
-    with cols[0]:
-        st.metric("Global AI in Elderly Care (2025 → 2035)", "$56.78B → $387.52B")
-        st.caption("InsightAce Analytic, Feb 2026")
-    with cols[1]:
-        st.metric("CAGR (2026–2035)", "21.30%")
-        st.caption("InsightAce Analytic, Feb 2026")
-    with cols[2]:
-        st.metric("German care facilities live on AI documentation", "1,100+")
-        st.caption("Voize — EU-Startups, Nov 2025")
-
-    cols2 = st.columns(3)
-    with cols2[0]:
-        st.metric("German operators who believe AI will help", "70%+")
-        st.caption("myneva Trendstudie, Dec 2025 — most haven't acted yet")
-    with cols2[1]:
-        st.metric("Germany Healthcare AI (2024 → 2035)", "$2.72B → $16.76B")
-        st.caption("MRFR, May 2025 (17.04% CAGR)")
+    st.subheader("Nursing & residential care lags every other sector on AI adoption (U.S. data)")
+    fig_gap = go.Figure()
+    fig_gap.add_trace(
+        go.Bar(
+            x=["Nursing/Residential Care", "Healthcare (avg)", "Outpatient/Ambulatory", "Finance/Insurance", "Education", "Prof/Sci/Tech"],
+            y=[4.5, 8.3, 8.7, 11.6, 15.1, 19.2],
+            marker_color=[RED, AMBER, AMBER, BLUE, BLUE, BLUE],
+            text=["4.5%", "8.3%", "8.7%", "11.6%", "15.1%", "19.2%"],
+            textposition="outside",
+        )
+    )
+    fig_gap.update_layout(
+        yaxis_title="Firms using AI (2025)",
+        yaxis=dict(ticksuffix="%"),
+        xaxis=dict(type="category"),
+        height=380,
+        showlegend=False,
+    )
+    st.plotly_chart(fig_gap, use_container_width=True)
+    st.caption(
+        "Nursing/residential care AI adoption grew from only 3.1% (2023) to 4.5% (2025) — "
+        "the lowest of any sector and less than a quarter of the rate in Prof/Sci/Tech. "
+        "U.S. data used as proxy. JAMA Health Forum / Census Bureau Business Trends and Outlook Survey, via Skilled Nursing News, Dec 2025."
+    )
 
     st.divider()
 
-    chart_cols = st.columns(2)
+    st.header("Snapshot of German Digital Investment")
 
-    with chart_cols[0]:
-        st.subheader("Global AI in Elderly Care market ($B)")
-        years = list(range(2025, 2036))
-        cagr = 0.2130
-        start, end = 56.78, 387.52
-        # Smooth interpolation anchored to the two sourced endpoints
-        n = len(years) - 1
-        values = [
-            start * ((end / start) ** (i / n)) for i in range(len(years))
-        ]
-        fig = go.Figure()
-        fig.add_trace(go.Bar(x=years, y=values, marker_color=GREEN, name="Market size ($B)"))
-        fig.update_layout(
-            yaxis_title="$ Billion",
-            xaxis_title="Year",
-            showlegend=False,
-            height=380,
-        )
-        st.plotly_chart(fig, use_container_width=True)
-        st.caption("Endpoints sourced (2025: $56.78B, 2035: $387.52B); intermediate years interpolated at the reported 21.30% CAGR.")
+    cols = st.columns(4)
+    with cols[0]:
+        st.metric("German care facilities live on AI documentation", "1,100+")
+        st.caption("Voize — EU-Startups, Nov 2025")
+    with cols[1]:
+        st.metric("Govt target: AI documentation adoption by 2028", "70%")
+        st.caption("Gemeinsam Digital 2026 (BMG)")
+    with cols[2]:
+        st.metric("German AI strategy budget already deployed", "€3.38B of €5B")
+        st.caption("OECD Country Report on Germany, 2025")
+    with cols[3]:
+        st.metric("Federal digitization subsidy per facility", "Up to €12,000")
+        st.caption("§8 SGB XI — claims open through 2030, largely unclaimed")
 
-    with chart_cols[1]:
-        st.subheader("Germany Healthcare AI market ($B)")
-        fig2 = go.Figure()
-        fig2.add_trace(
-            go.Bar(
-                x=["2024", "2035"],
-                y=[2.72, 16.76],
-                marker_color=[GREEN, GREEN],
-                text=["$2.72B", "$16.76B"],
-                textposition="outside",
-            )
+    st.divider()
+
+    st.info(
+        "**Regulatory deadline:** All care facilities must be connected to the "
+        "*Telematikinfrastruktur* by **July 2025**, and from **December 2026** "
+        "billing must run exclusively through this digital infrastructure — "
+        "digitization is no longer optional."
+    )
+
+    st.subheader("German AI strategy budget: committed → deployed (€B)")
+    fig3 = go.Figure()
+    fig3.add_trace(
+        go.Bar(
+            x=["Total budget", "Directed to projects", "Deployed (Jun 2024)"],
+            y=[5.0, 3.5, 3.38],
+            marker_color=[GOLD, AMBER, GREEN],
+            text=["€5.0B", "€3.5B", "€3.38B"],
+            textposition="outside",
         )
-        fig2.update_layout(yaxis_title="$ Billion", height=380, showlegend=False)
-        st.plotly_chart(fig2, use_container_width=True)
-        st.caption("MRFR, May 2025 — 17.04% CAGR")
+    )
+    fig3.update_layout(
+        yaxis_title="€ Billion",
+        xaxis=dict(type="category"),
+        height=380,
+        showlegend=False,
+    )
+    st.plotly_chart(fig3, use_container_width=True)
+    st.caption("OECD Country Report on Germany, 2025 — government funds are actively deployed, not just committed.")
 
     st.success(
-        "**Key message:** The adoption wave is happening in Germany now. "
-        "Early movers gain operational and recruitment advantage."
+        "**Key message:** 1,100+ facilities are live on AI documentation today, and the "
+        "German government targets 70% adoption by 2028 — backed by €3.38B in deployed "
+        "funding. Early movers gain operational and recruitment advantage before this "
+        "becomes the norm."
     )
 
     with st.expander("Sources"):
         st.markdown(
-            "- InsightAce Analytic, Feb 2026 — Global AI in Aging & Elderly Care market\n"
-            "- MRFR, May 2025 — Germany Healthcare AI market\n"
+            "- OECD Country Report on Germany, 2025 — National AI Strategy budget deployment (€5B total, €3.38B deployed by Jun 2024)\n"
             "- EU-Startups, Nov 2025 — Voize deployment scale\n"
-            "- myneva Trendstudie, Dec 2025 — German operator sentiment"
+            "- Gemeinsam Digital 2026 (BMG) — 70% AI documentation adoption target by 2028, via ICT&health, June 2026\n"
+            "- AOK Gesundheitspartner / vdek Berlin-Brandenburg, April 2024 — §8 SGB XI digitization subsidy (up to €12,000/facility, extended through 2030 under PUEG)\n"
+            "- Telekonnekt — Telematikinfrastruktur connection mandate (July 2025) and digital billing requirement (Dec 2026)\n"
+            "- JAMA Health Forum / Skilled Nursing News, Dec 2025 — sector AI adoption rates (Census Bureau BTOS, Sept 2023–May 2025)"
         )
 
 # ---------------------------------------------------------------------------
